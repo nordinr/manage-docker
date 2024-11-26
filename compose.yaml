@@ -5,4 +5,6 @@ services:
     image: wordpress:php8.3-fpm-alpine
     volumes:
       - ./html:/var/www/html
+    ports:
+      - 793:80
     
