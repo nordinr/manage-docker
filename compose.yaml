@@ -1,0 +1,8 @@
+---
+services:
+  wordpress:
+    container_name: wordpress
+    images: wordpress:php8.3-fpm-alpine
+    volume:
+      - ./html:/var/www/html
+    
